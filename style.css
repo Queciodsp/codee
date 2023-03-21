@@ -1,0 +1,418 @@
+  * {
+    box-sizing: border-box;
+    list-style-type: none;
+    padding: 0;
+    text-decoration: none;
+  }
+
+  body {
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+  }
+
+  header .border:hover{
+    border-top: solid 3px #0065FC;
+    color: #0065FC;
+    padding: 36px;
+  }
+
+  header .border{
+    padding: 36px;
+  }
+
+  header ul li{
+    margin-right:40px;
+  }
+
+  header ul{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  header nav{
+    margin-top: 23px;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header img{
+    min-width: 100px;
+    width: 10%;
+    margin-left: 40px;
+  }
+
+
+
+  .filter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: 'Raleway', 'Sans-serif';
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .filter .item {
+    border: 2px solid lightgray;
+  }
+
+  .filter .item .icon {
+    padding: 10px;
+    border-radius: 100px;
+    background-color: lightblue;
+    color: #0065FC;
+  }
+
+  .filter .item .label {
+    padding: 0 20px;
+  }
+
+  .item {
+    margin: 10px;
+    padding: 10px 0;
+    border-radius: 100px;
+  }
+
+  .item:hover {
+    background-color: #F2F2F2;
+  }
+
+  .right-side ul li {
+    list-style: none;
+    display: flex;
+    padding: 8px 12px;
+    position: relative;
+  }
+
+  .filter p{
+    font-size: 16px;
+    font-family: 'raleway', 'sans-serif';
+    font-weight: bold;
+  }
+
+  p{
+    font-family: 'Raleway', 'Sans-Serif';
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .search-bar{
+    margin-left: 35px;
+  }
+
+  .search-bar .map{
+    display: flex;
+  }
+
+  .search-bar .fa-location-dot{
+    background-color: #F2F2F2;
+    border-radius: 10px 0 0 10px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 112%;
+  }
+
+  .search-bar input{
+    height: 50px;
+    width: 230px;
+    border: #F2F2F2 1px solid;
+    font-weight: 600;
+    font-size: 119%;
+  }
+
+  .search-bar input::placeholder{
+    color: black;
+    padding-left: 20px;
+  }
+
+  .search-bar .search{
+    border-radius: 0 10px 10px 0;
+    height: 50px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    background-color: #0065FC;
+    cursor: pointer;
+    margin: 0;
+  }
+
+  .fa-search{
+    color: transparent;
+  }
+
+  h1{
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+
+  .search-bar p{
+    margin-bottom: 20px;
+  }
+
+  p i{
+    color: #0065FC;
+  }
+
+main{
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.accommodations{
+  background: #F2F2F2;
+  width: 65%;
+  height: 650px;
+  border-radius: 20px;
+  margin-right: 30px;
+  }
+
+  .accommodations h2{
+    margin: 40px 0 40px 20px;
+  }
+
+  .accommodations h4{
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+
+  .rooms{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+  } 
+
+  .accommodations img{
+    object-fit: cover;
+    width: 100%;
+    height: 120px;
+    border-radius: 20px 25px 0 0;
+    padding-right: 10px;
+    margin: 5px 0 0 5px;
+  } 
+
+  .accommodations .image{
+    width: 220px;
+    height: auto;
+    background: white;
+    margin-bottom: 40px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 5px;
+    box-shadow: 0 1px 20px #0002;
+  }
+
+  text-image{
+    margin-left: 15px;
+    line-height: 25px;
+  }
+
+  .accommodations2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .review{
+    color: #0065FC;
+  }
+
+  .most-popular{
+    background: #f2f2f2;
+    width: 30%;
+    height: 650px;
+    border-radius: 20px;
+    
+  }
+
+  .most-popular .title-popular{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px;
+  }
+
+  .most-popular .image-popular{
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: white;
+    height: 145px;
+    width: 280px;
+    margin-bottom: 30px;
+    display: flex;
+    margin-left: 40px;
+    box-shadow: 0 1px 20px #0002;
+   }
+
+  .most-popular img{
+    object-fit: cover;
+    height: 140px;
+    width: 110px;
+    border-radius: 20px 20px;
+    padding: 3%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .image-popular .price{
+    margin-top: 10px;
+  }
+
+  .activity-section{
+    margin-left: 30px;
+  }
+
+  .activity-section h3{
+    margin: 40px 0 30px 0;
+  }
+
+  .activity-section .activity-card{
+    display: flex;
+    height: 600px;
+    gap: 2%;
+  }
+
+  .activity-section .activity-colum .image-activity{
+    margin-bottom: 50px;
+  }
+
+  .image-activity{
+    box-shadow: 0 1px 20px #0002;
+  }
+
+  .activity-section img{
+    object-fit: cover;
+    width: 285px;
+    border-radius: 15px 15px 0 0;
+    max-width: 100%;
+  }
+
+  .image1{
+    height: 460px;
+  }
+
+  .image2{
+    height: 225px;
+  }
+
+  .image3{
+    height: 155px;
+  }
+
+  .image4{
+    height: 460px;
+  }
+
+  .image5{
+    height: 200px;
+  }
+
+  .image6{
+    height: 180px;
+  }
+
+  .image-activity{
+    border-radius: 15px;
+    padding-bottom: 20px;
+  }
+
+  .activity-section .title-activity{
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .accommodations .image:hover{
+    transform: scale(1.08);
+    transition: 0.8s;
+  }
+
+  .most-popular .image-popular:hover{
+    transform: scale(1.07);
+    transition: 0.8s;
+  }
+
+  .image-activity:hover{
+    transform: scale(1.06);
+    transition: 0.8s;
+  }
+
+  .web-footer{
+    width: 100%;
+    background: #F2F2F2;
+    height: 300px;
+    display: flex;
+    padding-top: 40px;
+    margin-left: 0px;
+    margin-top: 20px;
+    
+  }
+
+  .web-footer .section-footer{
+    flex: 1;
+    margin-left: 40px;
+  }
+
+  .web-footer .section-footer h4{
+    font-weight: 900;
+    font-size: 120%;
+    line-height: 50px;
+
+
+  }
+
+  .web-footer .section-footer a{
+    line-height: 30px;
+  }
+
+  p{
+    margin-left: 40px;
+  }
+ 
+  .example{
+    margin-left: 40px;
+  }
+
+  body h1{
+    margin-left: 40px;
+  }
+
+  @media screen and (max-width: 768px){
+    body{
+      background-color: blue;
+    }
+    .rooms{
+      flex: auto;
+    }
+
+    .rooms image{
+      flex-direction: column;
+    }
+
+    .most-popular{
+      flex-direction: column;
+    }
+    }
+
+
+  @media screen and (min-width: 992px){
+    body{
+      background-color: red;
+    }
+ 
+  }
